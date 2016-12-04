@@ -23,7 +23,7 @@ npm install -g yo gulp generator-angular-gulp-browserify
 mkdir my-project && cd $_
 
 #To initialize the generator, run:
-yo angular-gulp-browserify
+yo @globalx/gx-library
 
 #Finally, run:
 gulp dev
