@@ -17,7 +17,7 @@ Generator-angular-gulp-browserify is build on top of [jakemmarsh/angularjs-gulp-
 ## Getting Started
 ```bash
 # Install Yeoman, gulp & the generator:
-npm install -g yo gulp generator-angular-gulp-browserify
+npm install -g yo gulp @globalx/generator-gx-library
 
 # Make a new directory, and 'cd' into it:
 mkdir my-project && cd $_
