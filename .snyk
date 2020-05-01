@@ -108,3 +108,7 @@ patch:
         patched: '2020-05-01T03:21:08.958Z'
     - yeoman-generator > yeoman-test > yeoman-generator > yeoman-environment > yeoman-generator > yeoman-environment > inquirer > lodash:
         patched: '2020-05-01T03:21:08.958Z'
+    - yeoman-generator > lodash:
+        patched: '2020-05-01T22:57:18.424Z'
+    - yeoman-generator > async > lodash:
+        patched: '2020-05-01T22:57:18.424Z'
