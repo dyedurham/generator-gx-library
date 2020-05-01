@@ -23,7 +23,9 @@
     "release": "npm version ${BUMP:-\"patch\"} --no-git-tag-version && git add package.json && git commit -m \":octocat: Bump to $(cat package.json | json version)\" && git tag $(cat package.json | json version) && git push && git push --tags && npm publish",
     "test": "mocha",
     "tdd": "mocha -w",
-    "update": "git submodule update --init --recursive && git submodule foreach --recursive git fetch && git submodule foreach git merge origin master"
+    "update": "git submodule update --init --recursive && git submodule foreach --recursive git fetch && git submodule foreach git merge origin master",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "files": [
     "generators"
@@ -35,7 +37,8 @@
     "yeoman-assert": "^2.1.1",
     "yeoman-generator": "^0.22.5",
     "yeoman-test": "^1.1.0",
-    "yosay": "^1.0.5"
+    "yosay": "^1.0.5",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "json": "^9.0.3",
@@ -44,5 +47,6 @@
   "homepage": "https://github.com/GlobalX/generator-angular-gulp-browserify",
   "directories": {
     "test": "test"
-  }
+  },
+  "snyk": true
 }
