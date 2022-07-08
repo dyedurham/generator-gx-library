@@ -37,7 +37,7 @@
     "yeoman-assert": "^2.1.1",
     "yeoman-generator": "^0.24.1",
     "yeoman-test": "^1.1.0",
-    "yosay": "^1.0.5",
+    "yosay": "^2.0.0",
     "snyk": "^1.316.1"
   },
   "devDependencies": {
